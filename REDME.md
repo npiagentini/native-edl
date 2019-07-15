@@ -16,6 +16,6 @@ https://ransomwaretracker.abuse.ch/downloads/RW_IPBL.txt
 # Bambenek Consulting C2 list
 http://osint.bambenekconsulting.com/feeds/c2-ipmasterlist.txt
 
-#S pamhaus drop and Edrop lists
+# Spamhaus drop and Edrop lists
 https://www.spamhaus.org/drop/drop.txt
 https://www.spamhaus.org/drop/edrop.txt
