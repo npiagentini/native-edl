@@ -13,9 +13,6 @@ https://check.torproject.org/cgi-bin/TorBulkExitList.py?ip=1.1.1.1
 # Abuse.ch Ransomware
 https://ransomwaretracker.abuse.ch/downloads/RW_IPBL.txt
 
-# Bambenek Consulting C2 list
-http://osint.bambenekconsulting.com/feeds/c2-ipmasterlist.txt
-
 # Spamhaus drop and Edrop lists
 https://www.spamhaus.org/drop/drop.txt
 https://www.spamhaus.org/drop/edrop.txt
