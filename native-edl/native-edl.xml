@@ -1,0 +1,55 @@
+<external-list>
+      <entry name="TOR Exit nodes">
+        <type>
+          <ip>
+            <recurring>
+              <hourly/>
+            </recurring>
+            <description>This is a list of all Tor exit nodes from the past 16
+ hours that can contact 1.1.1.1 on port 80</description>
+            <url>https://check.torproject.org/cgi-bin/TorBulkExitList.py?ip=1.
+1.1.1</url>
+          </ip>
+        </type>
+      </entry>
+      <entry name="AbuseCH Ransomware">
+        <type>
+          <ip>
+            <recurring>
+              <hourly/>
+            </recurring>
+            <description>Ransomware IP list from Abuse.ch</description>
+            <url>https://ransomwaretracker.abuse.ch/downloads/RW_IPBL.txt</url
+>
+            <certificate-profile>Test-cert-profile</certificate-profile>
+          </ip>
+        </type>
+      </entry>
+      <entry name="Spamhaus DROP list">
+        <type>
+          <ip>
+            <recurring>
+              <hourly/>
+            </recurring>
+            <description>The Spamhaus DROP (Don't Route Or Peer) lists are adv
+isory "drop all traffic" lists, consisting of netblocks that are "hijacked" or
+ leased by professional spam or cyber-crime operations </description>
+            <url>https://www.spamhaus.org/drop/drop.txt</url>
+          </ip>
+        </type>
+      </entry>
+      <entry name="Spamhaus EDROP">
+        <type>
+          <ip>
+            <recurring>
+              <hourly/>
+            </recurring>
+            <description>EDROP is an extension of the DROP list that includes
+suballocated netblocks controlled by spammers or cyber criminals. EDROP is mea
+nt to be used in addition to the direct allocations on the DROP list.</descrip
+tion>
+            <url>https://www.spamhaus.org/drop/edrop.txt</url>
+          </ip>
+        </type>
+      </entry>
+</external-list>
